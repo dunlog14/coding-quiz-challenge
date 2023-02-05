@@ -1,0 +1,68 @@
+
+
+.main {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+  }
+
+#start-btn {
+    color: white;
+    background-color: rgb(0, 102, 255);
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide {
+    display: none;
+}
+
+.nav {
+    padding: .5rem;
+    background-color: rgb(83, 236, 12);
+}
+
+.nav-item {
+    margin: 1rem;
+}
+
+#highscores {
+    margin: .5rem;
+}
+
+#reset {
+    margin: .5rem;
+} 
+
+#timer {
+    padding: .5rem;
+    align-content: right;
+    text-align: right;
+}
+
+#scores-container {
+    max-height: 14.8rem;
+    overflow: hidden;
+}
